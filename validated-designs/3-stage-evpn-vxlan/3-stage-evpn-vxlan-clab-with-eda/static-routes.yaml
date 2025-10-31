@@ -2,7 +2,7 @@
 # Licensed under the BSD 3-Clause License  
 # SPDX-License-Identifier: BSD-3-Clause  
 
-apiVersion: protocols.eda.nokia.com/v1alpha1
+apiVersion: protocols.eda.nokia.com/v1
 kind: StaticRoute
 metadata:
   name: static-s5
