@@ -230,11 +230,11 @@ echo "Generating traffic in the fabric for host learning. Please wait."
 print_separator
 
 # login to container s1 and ping other hosts to trigger host learning
-docker exec -it s1 ping -c 4 172.16.10.254
-docker exec -it s2 ping -c 4 172.16.10.254
-docker exec -it s3 ping -c 4 172.16.20.254
-docker exec -it s4 ping -c 4 172.16.30.254
-docker exec -it s6 ping -c 4 172.16.30.254
-docker exec -it s7 ping -c 4 172.16.40.254
-docker exec -it s8 ping -c 4 172.16.50.254
-docker exec -it s9 ping -c 4 172.16.60.254
+#docker exec -it s1 ping -c 4 172.16.10.254
+#docker exec -it s2 ping -c 4 172.16.10.254
+#docker exec -it s3 ping -c 4 172.16.20.254
+#docker exec -it s4 ping -c 4 172.16.30.254
+#docker exec -it s6 ping -c 4 172.16.30.254
+#docker exec -it s7 ping -c 4 172.16.40.254
+#docker exec -it s8 ping -c 4 172.16.50.254
+#docker exec -it s9 ping -c 4 172.16.60.254
