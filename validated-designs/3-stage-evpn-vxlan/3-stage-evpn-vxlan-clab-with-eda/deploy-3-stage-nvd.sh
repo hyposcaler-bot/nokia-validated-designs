@@ -61,8 +61,8 @@ fi
 
 # before proceeding, we must wait to see if all nodes have been synced with EDA
 nodes=("leaf1" "leaf2" "leaf3" "leaf4" "leaf5" "leaf6" "spine1" "spine2")
-max_retries=30
-wait_before_retry=30
+max_retries=120
+wait_before_retry=120
 retry_count=0
 desired_state="Synced"
 
